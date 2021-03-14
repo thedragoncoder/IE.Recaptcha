@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+body {
+  padding-top: 90px;
+  background: linear-gradient(-45deg, #33B9B9, #12EBEB, #15a8dd, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+ min-height: 100vh;
+}
+.header-text h1{
+    padding-top: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.header-text p {
+    padding-top: 2px;
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+}
+input[type=submit] {
+    margin-left: 44%;
+  	box-shadow: 0px 0px 25px 2px #3dc21b;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	margin-top: 15%;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+input[type=submit]:hover{
+ background-color:transparent;
+} 
+
+input[type=submit]:active{
+    position:relative;
+	top:1px;
+}
+
+input[type=file] {
+    margin-left: 28%;
+	box-shadow: 0px 0px 25px 2px #eaff00;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+input[type=file]:hover{
+background-color:transparent;
+} 
+
+input[type=file]:active{
+    position:relative;
+	top:1px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.results h2{
+    font-size: large;
+    font-family: monospace;
+}
