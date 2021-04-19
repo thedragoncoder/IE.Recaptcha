@@ -24,7 +24,6 @@ A project made by students of [IE NITK](https://ie.nitk.ac.in/). Two CNNs are im
 
     ![Training Accuracy](./Imgs/trainacc.png)
 
-    <br>
     - Training Loss over 30 Epochs
 
     ![Training Loss](./Imgs/trainloss.png)
